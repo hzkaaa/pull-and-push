@@ -4,7 +4,7 @@ var source, fft;
 var shiftedPixels
 
 function setup() {
-  createCanvas(200,1500);
+  createCanvas(2000,1500);
   colorMode(HSB);
   noFill();
   //audio input
