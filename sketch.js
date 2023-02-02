@@ -11,7 +11,7 @@ function setup() {
   source = new p5.AudioIn();
   source.start();
   //512= Data length
-  fft = new p5.FFT(0.8, 512);
+  fft = new p5.FFT(12, 512);
   //audio source
   fft.setInput(source);
   //amplitude = new p5.Amplitude();
