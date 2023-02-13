@@ -2,14 +2,18 @@
 /*This is a comment in CSS*/
 
 body{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:cursive;
+    color:lightpink;
 }
 
 h1{
-    font-size: 50px;
+    top: 400px;
+    font-size: 100px;
+    color:lightpink;
 }
 
 p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
 }
 
@@ -24,29 +28,49 @@ p{
 /* The child will then be positioned absolute in realtion to the box container of the parent */
 /* positioning elements on the page is fundamental to understanding CSS: https://developer.mozilla.org/en-US/docs/Web/CSS/position */
 .title{
-    position: relative;
     width: 800px;
     text-align:center;
     margin: 0 auto;
 }
 .title a{
+    color:plum;
     position: absolute;
 }
 .title a.question{
-    left: 30%;
-    top: 200px;
+    font-size: 30px;
+    color:plum;
+    left: 42%;
+    top: 650px;
  
 }
 .title a.answer{
-    left: 32%;
-    top: 400px;
+    font-size: 30px;
+    color:plum;
+    left: 42%;
+    top: 800px;
 
 }
 
 a.dead-link:hover{
+    
     opacity: 0;
+    top: 400px;
 }
 
 span#ghost{
     opacity: 0.4;
+}
+
+
+a{
+   
+    font-family:cursive;
+    font-size: 50px;
+    color:plum;  
+}
+
+em{
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:lightpink;
 }
